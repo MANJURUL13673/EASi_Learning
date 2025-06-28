@@ -1,4 +1,4 @@
-#Sat Jun 28 12:40:56 BDT 2025
+#Sat Jun 28 21:49:33 BDT 2025
 base.2=E\:\\PERSONAL\\PROJECTS\\QT\\EASi_Learning\\ELearning\\build\\Android_Qt_6_9_1_Clang_arm64_v8a-Debug\\android-build-appELearning\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
 base.1=E\:\\PERSONAL\\PROJECTS\\QT\\EASi_Learning\\ELearning\\build\\Android_Qt_6_9_1_Clang_arm64_v8a-Debug\\android-build-appELearning\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

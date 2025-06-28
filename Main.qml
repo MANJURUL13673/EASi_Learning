@@ -35,6 +35,7 @@ ApplicationWindow {
               property color brushColor: "black"  // White brush on black canvas
               property int brushSize: 4
               property var lastPoint: Qt.point(0, 0)
+              property string drawingMode: "pencil"
 
               onPaint: {
                       var ctx = getContext("2d")
@@ -59,7 +60,14 @@ ApplicationWindow {
                    onPositionChanged: {
                        if (canvas.drawing) {
                            var ctx = canvas.getContext("2d")
-                           ctx.strokeStyle = canvas.brushColor
+                           if (canvas.drawingMode === "eraser") {
+                                      ctx.globalCompositeOperation = "destination-out"
+                                      ctx.strokeStyle = "rgba(0,0,0,1)"
+                           } else {
+                                      ctx.globalCompositeOperation = "source-over"
+                                      ctx.strokeStyle = canvas.brushColor
+                           }
+
                            ctx.lineWidth = canvas.brushSize
                            ctx.lineCap = "round"
                            ctx.lineJoin = "round"
@@ -122,15 +130,39 @@ ApplicationWindow {
                        Repeater {
                            model: ["black", "red", "blue", "green", "purple"]
                            delegate: Rectangle {
-                               width: 30
-                               height: 30
+                               width: 35
+                               height: 35
                                color: modelData
-                               radius: 15
-                               border.color: canvas.brushColor === modelData ? "#001b3d" : "#ccc"
+                               radius: 18
+                               border.color: canvas.brushColor === Qt.color(modelData) ? "#001b3d" : "#e0e0e0"
                                border.width: 2
+
+                               Rectangle {
+                                      width: 25
+                                      height: 25
+                                      color: modelData
+                                      radius: 12
+                                      anchors.centerIn: parent
+
+                                      // White checkmark for selected color
+                                      Text {
+                                           text: "✓"
+                                           color: "white"
+                                           font.pixelSize: 16
+                                           font.bold: true
+                                           anchors.centerIn: parent
+                                           visible: canvas.brushColor === Qt.color(modelData)
+                                           style: Text.Outline
+                                           styleColor: "black"
+                                           }
+                                      }
+
                                MouseArea {
                                    anchors.fill: parent
-                                   onClicked: canvas.brushColor = modelData
+                                   onClicked: {
+                                      canvas.brushColor = modelData
+                                      //console.log("Button Clicked", canvas.brushColor === Qt.color(modelData))
+                                   }
                                }
                            }
                        }
@@ -151,6 +183,54 @@ ApplicationWindow {
                        value: canvas.brushSize
                        onValueChanged: canvas.brushSize = value
                    }
+
+                   Row {
+                       spacing: 8
+                       Button {
+                              width: 80
+                              height: 35
+                              text: "✏️ Pencil"
+                              background: Rectangle {
+                                      color: canvas.drawingMode === "pencil" ? "#001b3d" : "#dee1e6"
+                                      radius: 4
+                              }
+                              contentItem: Text {
+                                      text: parent.text
+                                      color: canvas.drawingMode === "pencil" ? "white" : "#001b3d"
+                                      horizontalAlignment: Text.AlignHCenter
+                                      verticalAlignment: Text.AlignVCenter
+                                      font.pixelSize: 12
+                              }
+                              onClicked: {
+                                      canvas.drawingMode = "pencil"
+                                      console.log("Switched to pencil mode")
+                              }
+                        }
+
+                        Button {
+                               width: 80
+                               height: 35
+                               text: "🧹 Eraser"
+                               background: Rectangle {
+                                      color: canvas.drawingMode === "eraser" ? "#001b3d" : "#dee1e6"
+                                      radius: 4
+                               }
+
+                               contentItem: Text {
+                                      text: parent.text
+                                      color: canvas.drawingMode === "eraser" ? "white" : "#001b3d"
+                                      horizontalAlignment: Text.AlignHCenter
+                                      verticalAlignment: Text.AlignVCenter
+                                      font.pixelSize: 12
+                               }
+
+                               onClicked: {
+                                      canvas.drawingMode = "eraser"
+                                      console.log("Switched to eraser mode")
+                               }
+                        }
+                   }
+
 
                    Rectangle {
                        width: parent.width
