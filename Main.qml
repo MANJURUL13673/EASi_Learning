@@ -203,7 +203,7 @@ ApplicationWindow {
                               }
                               onClicked: {
                                       canvas.drawingMode = "pencil"
-                                      console.log("Switched to pencil mode")
+                                      //console.log("Switched to pencil mode")
                               }
                         }
 
@@ -226,7 +226,7 @@ ApplicationWindow {
 
                                onClicked: {
                                       canvas.drawingMode = "eraser"
-                                      console.log("Switched to eraser mode")
+                                      //console.log("Switched to eraser mode")
                                }
                         }
                    }
