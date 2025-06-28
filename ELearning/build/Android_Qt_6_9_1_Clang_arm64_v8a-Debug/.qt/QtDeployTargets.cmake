@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appELearning_FILE E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug/libELearning_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_appELearning_TYPE MODULE_LIBRARY)

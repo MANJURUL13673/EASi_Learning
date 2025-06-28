@@ -1,0 +1,14 @@
+-rootPath
+E:/PERSONAL/PROJECTS/QT/EASi_Learning
+-cmake-output
+-output-file
+E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug/.qt/qml_imports/appELearning_conf.cmake
+-importPath
+E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug/ELearning
+-importPath
+E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug
+-importPath
+C:/Qt/6.9.1/android_arm64_v8a/qml
+-qrcFiles
+E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug/.qt/rcc/qmake_ELearning.qrc
+E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug/.qt/rcc/appELearning_raw_qml_0.qrc

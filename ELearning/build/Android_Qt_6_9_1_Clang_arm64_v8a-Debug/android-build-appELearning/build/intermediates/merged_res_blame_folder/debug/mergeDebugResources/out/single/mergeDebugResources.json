@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "org.qtproject.example.ELearning-debug-11:/xml_qtprovider_paths.xml.flat",
+        "source": "org.qtproject.example.ELearning-android-build-appELearning-12:/xml/qtprovider_paths.xml"
+    }
+]
