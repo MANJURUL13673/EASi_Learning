@@ -1,5 +1,0 @@
-module ELearning
-typeinfo appELearning.qmltypes
-prefer :/qt/qml/ELearning/
-Main 1.0 Main.qml
-

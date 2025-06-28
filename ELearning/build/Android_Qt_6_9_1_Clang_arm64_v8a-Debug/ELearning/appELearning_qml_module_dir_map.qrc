@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/ELearning">E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug/ELearning</file>
-
-  </qresource>
-</RCC>
