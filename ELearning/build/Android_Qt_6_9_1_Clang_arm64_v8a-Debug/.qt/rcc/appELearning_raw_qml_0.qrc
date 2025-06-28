@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/ELearning/">
+    <file alias="Main.qml">E:/PERSONAL/PROJECTS/QT/EASi_Learning/Main.qml</file>
+  </qresource>
+</RCC>
+

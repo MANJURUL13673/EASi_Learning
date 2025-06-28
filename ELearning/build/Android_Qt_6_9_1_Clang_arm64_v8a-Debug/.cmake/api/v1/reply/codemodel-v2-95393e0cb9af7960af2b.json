@@ -1,0 +1,286 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-795e0fafc76a5d52504d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ELearning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-f97e9891ead75aa4d91a.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-274d63974accb9830d19.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aar-Debug-e1c58197585a95a17629.json",
+					"name" : "aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-baee7c0fc04342d8bd42.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-7ddeaa38ff8ec726d3f1.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-c61559f50dd1e1b991bb.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-a64e612ab916fb05216a.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6f2909ccdda3960f2869.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-312beb19bfc73f1fc781.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-8f7813723ed72ef88d04.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning-Debug-e582333460aae6c5415d.json",
+					"name" : "appELearning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_autogen-Debug-0d56a39daeef921def88.json",
+					"name" : "appELearning_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_autogen_timestamp_deps-Debug-fd2c4585c3c2b938bdc8.json",
+					"name" : "appELearning_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_copy_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_copy_apk_dependencies-Debug-19602d82ec0cc68bc1a8.json",
+					"name" : "appELearning_copy_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_copy_qml-Debug-ec68f1296336ce351d0b.json",
+					"name" : "appELearning_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_copy_res-Debug-33d172d8cfe0ccd19c60.json",
+					"name" : "appELearning_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_make_aab-Debug-f5f40bcdf3536935fbad.json",
+					"name" : "appELearning_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_make_aar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_make_aar-Debug-6ea1a3808561c0be1176.json",
+					"name" : "appELearning_make_aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_make_apk-Debug-c7db3d470a6616c226fa.json",
+					"name" : "appELearning_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_prepare_apk_dir-Debug-df97875344624674f698.json",
+					"name" : "appELearning_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_qmllint-Debug-08c6c751569e17603120.json",
+					"name" : "appELearning_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_qmllint_json-Debug-33d8ab9c4f0012bd0397.json",
+					"name" : "appELearning_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_qmllint_module-Debug-6e4fea770c140c4ec7a9.json",
+					"name" : "appELearning_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appELearning_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appELearning_qmltyperegistration-Debug-db4ca355d20606c32ca5.json",
+					"name" : "appELearning_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appELearning_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appELearning_aotstats_target-Debug-cbf95b92e0b4df87b27b.json",
+					"name" : "module_appELearning_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-628fcd06d893df4c547b.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/PERSONAL/PROJECTS/QT/EASi_Learning/ELearning/build/Android_Qt_6_9_1_Clang_arm64_v8a-Debug",
+		"source" : "E:/PERSONAL/PROJECTS/QT/EASi_Learning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
